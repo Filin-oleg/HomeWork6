@@ -2,9 +2,11 @@
 //Найдите сумму элементов, находящихся на главной диагонали (с индексами (0,0); (1;1) и т.д.)
 
 Console.Clear();
-Console.WriteLine("Введите количество строк и столбцов двумерного массива ");
-int num = Convert.ToInt32(Console.ReadLine());
-int[,] matrix = new int[num, num];
+Console.WriteLine("Введите количество строк двумерного массива ");
+int row = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите количество столбцов двумерного массива ");
+int column = Convert.ToInt32(Console.ReadLine());
+int[,] matrix = new int[row, column];
 void fillMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
