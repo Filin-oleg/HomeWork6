@@ -8,7 +8,7 @@ int[] arrayFill(int M)
     int[] array = new int[M];
     for (int i = 0; i < M; i++)
     {
-        Console.WriteLine("Введите число массива ");
+        Console.WriteLine("Введите число ");
         array[i] = Convert.ToInt32(Console.ReadLine());
     }
     return array;
