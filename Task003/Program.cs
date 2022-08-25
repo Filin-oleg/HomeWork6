@@ -3,7 +3,7 @@
 
 Console.Clear();
 Console.WriteLine("Введите количество строк и столбцов двумерного массива ");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[num, num];
 void fillMatrix(int[,] matrix)
 {
