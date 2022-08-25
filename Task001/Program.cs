@@ -1,7 +1,7 @@
 ﻿// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
 Console.Clear();
-Console.WriteLine("Введите количество элеметов массива ");
+Console.WriteLine("Сколько чисел Вы хотите ввести? ");
 int M = Convert.ToInt32(Console.ReadLine());
 int[] arrayFill(int M)
 {
